@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RetroBasket Jordan Retros</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container header-container">
+    <h1 class="logo">🏀 RetroBasket Jordan</h1>
+    <nav id="navbar" class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#retros">Jordan Retros</a>
+      <a href="#estadisticas">Estadísticas</a>
+      <a href="#comparador">Comparador</a>
+      <a href="https://www.nike.com/basketball" target="_blank" rel="noopener noreferrer">Nike</a>
+      <a href="https://www.nba.com" target="_blank" rel="noopener noreferrer">NBA</a>
+    </nav>
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+  </div>
+</header>
+
+<main>
+  <section id="inicio" class="section">
+    <div class="container">
+      <h2>Bienvenido a RetroBasket Jordan</h2>
+      <p>Explora la historia y legado de Michael Jordan y sus icónicas zapatillas retros.</p>
+      <img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="NBA Logo" class="responsive-img" />
+    </div>
+  </section>
+
+  <section id="retros" class="section retros-section">
+    <div class="container">
+      <h2>Galería Jordan Retros</h2>
+      <div class="gallery">
+        <div class="card">
+        <div class="card">
+          <img src="sample 2.webp" alt="">
+          <p>Jordan Retro 3 Black Cement</p>
+        </div>
+        <div class="card">
+        <img src="sample 4.jpg" alt="">
+          <p>Jordan Retro 4 White Cement</p>
+        </div>
+        <div class="card">
+          <img src="sample 1.webp" alt="">
+          <p>Jordan Retro 5 Grape</p>
+        </div>
+        <div class="card">
+          <img src="sample 3.avif" alt="">
+          <p>Jordan Retro 6 Infrared</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="estadisticas" class="section">
+    <div class="container">
+      <h2>Estadísticas de Jugadores Legendarios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Jugador</th>
+            <th>Puntos</th>
+            <th>Rebotes</th>
+            <th>Asistencias</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Michael Jordan</td>
+            <td>30.1</td>
+            <td>6.2</td>
+            <td>5.3</td>
+          </tr>
+          <tr>
+            <td>LeBron James</td>
+            <td>27.0</td>
+            <td>7.4</td>
+            <td>7.3</td>
+          </tr>
+          <tr>
+            <td>Kobe Bryant</td>
+            <td>25.0</td>
+            <td>5.2</td>
+            <td>4.7</td>
+          </tr>
+          <tr>
+            <td>Stephen Curry</td>
+            <td>24.7</td>
+            <td>4.6</td>
+            <td>6.5</td>
+          </tr>
+          <tr>
+            <td>Giannis Antetokounmpo</td>
+            <td>23.0</td>
+            <td>9.8</td>
+            <td>4.6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="comparador" class="section">
+    <div class="container">
+      <h2>Comparador de Jugadores</h2>
+
+      <div class="compare-selectors">
+        <div>
+          <label for="player1">Jugador 1:</label>
+          <select id="player1">
+            <option value="">Selecciona un jugador</option>
+            <option value="jordan">Michael Jordan</option>
+            <option value="lebron">LeBron James</option>
+            <option value="kobe">Kobe Bryant</option>
+            <option value="curry">Stephen Curry</option>
+            <option value="giannis">Giannis Antetokounmpo</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="player2">Jugador 2:</label>
+          <select id="player2">
+            <option value="">Selecciona un jugador</option>
+            <option value="jordan">Michael Jordan</option>
+            <option value="lebron">LeBron James</option>
+            <option value="kobe">Kobe Bryant</option>
+            <option value="curry">Stephen Curry</option>
+            <option value="giannis">Giannis Antetokounmpo</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="comparison-output" class="comparison-output">
+        <p>Selecciona dos jugadores diferentes para comparar.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 RetroBasket Jordan. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
